@@ -1,32 +1,28 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const test = "i my me mine";
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <div>
-          <p>안녕하세요 ㅎㅎㅎㅎㅎ</p>
-          <span>sdfjklsdfjklsdf</span>
-          <a href="https://naver.com"></a>
-          <p>{test}</p>
+    <div className="container">
+      <div className="photos">
+        <div id="image1" className="photo-frame">
+          <span id="desc1" className="photo_desctiption"></span>
         </div>
-      </header>
+        <div id="image2" className="photo-frame">
+          <span id="desc2" className="photo_desctiption"></span>
+        </div>
+        <div id="image3" className="photo-frame">
+          <span id="desc3" className="photo_desctiption"></span>
+        </div>
+        <div id="image4" className="photo-frame">
+          <span id="desc4" className="photo_desctiption"></span>
+        </div>
+      </div>
+
+      <div className="footer">
+        <p className="f-title">Happy</p>
+        <p className="f-date">2023.02.12</p>
+      </div>
     </div>
   );
 }
