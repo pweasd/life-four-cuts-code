@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:5.51.0"],\
             ["@typescript-eslint/parser", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:5.51.0"],\
+            ["classnames", "npm:2.3.2"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-config-prettier", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:8.6.0"],\
             ["eslint-plugin-react", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:7.32.2"],\
@@ -6443,6 +6444,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["classnames", [\
+        ["npm:2.3.2", {\
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.2-d2fdae468d-2c62199789.zip/node_modules/classnames/",\
+          "packageDependencies": [\
+            ["classnames", "npm:2.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["clean-css", [\
         ["npm:5.3.2", {\
           "packageLocation": "./.yarn/cache/clean-css-npm-5.3.2-8946cefff9-8787b281ac.zip/node_modules/clean-css/",\
@@ -11355,6 +11365,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:5.51.0"],\
             ["@typescript-eslint/parser", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:5.51.0"],\
+            ["classnames", "npm:2.3.2"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-config-prettier", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:8.6.0"],\
             ["eslint-plugin-react", "virtual:c1589831d0a8b4b0a134812dfda0b79fdec4a5dcd2f59efa3dff1c42a9d093e7d5f7a195c6e2eca12ada2604878a64d452b42a4992c3bef3c76981dd15139f8b#npm:7.32.2"],\

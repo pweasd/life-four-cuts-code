@@ -6,16 +6,24 @@ function App() {
     <div className="container">
       <div className="photos">
         <div id="image1" className="photo-frame">
-          <span id="desc1" className="photo_desctiption"></span>
+          <span id="desc1" className="photo-description">
+            첫 번째
+          </span>
         </div>
         <div id="image2" className="photo-frame">
-          <span id="desc2" className="photo_desctiption"></span>
+          <span id="desc2" className="photo-description">
+            두 번째
+          </span>
         </div>
         <div id="image3" className="photo-frame">
-          <span id="desc3" className="photo_desctiption"></span>
+          <span id="desc3" className="photo-description">
+            세 번째
+          </span>
         </div>
         <div id="image4" className="photo-frame">
-          <span id="desc4" className="photo_desctiption"></span>
+          <span id="desc4" className="photo-description">
+            네 번째
+          </span>
         </div>
       </div>
 

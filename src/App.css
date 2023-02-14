@@ -15,6 +15,45 @@
   box-sizing: border-box;
   height: 200px;
   background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.photo-frame .photo-description {
+  color: white;
+  background-color: black;
+  width: fit-content;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.photo-frame:hover .photo-description {
+  opacity: 1;
+  transition: ease-in-out;
+}
+
+#image1 {
+  background-image: url(/public/img1.png);
+  background-size: cover;
+}
+
+#image2 {
+  background-image: url(/public/img2.png);
+  background-size: cover;
+}
+
+#image3 {
+  background-image: url(/public/img3.png);
+  background-size: cover;
+}
+
+#image4 {
+  background-image: url(/public/img4.png);
+  background-size: cover;
 }
 
 .footer {
